@@ -1,0 +1,39 @@
+.card {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+button {
+  padding: 5px;
+  width: 100px;
+  border-radius: 10px;
+  /* border: none; */
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+
+img {
+  width: 260px;
+  height: 200px;
+}
+.altPrice{
+    text-decoration: line-through;
+    font-size: 20px;
+}
+.newprice{
+    font-size: 20px;
+    color: red;
+}
+.title{
+    font-size: 25px;
+    font-weight: bold;
+}
